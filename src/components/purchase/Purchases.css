@@ -1,0 +1,28 @@
+.Purchases {
+  
+    width: 100%;
+    padding-left: 70px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.Purchases .puechases-contianer{
+    width: 80%;
+
+}
+.Purchases table ,
+.Purchases th ,
+.Purchases td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+
+}
+
+.Purchases tr {
+    width: 100%;
+    
+}
+.Purchases th,td {
+    width: 20%;
+}

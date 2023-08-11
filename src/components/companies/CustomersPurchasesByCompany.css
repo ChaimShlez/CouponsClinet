@@ -1,0 +1,35 @@
+.Customers-purchases {
+  
+    width: 100%;
+    padding-left: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+}
+.Customers-purchases > .purchases-container{
+    width: 80%;
+
+}
+.Customers-purchases > .purchases-container > table ,
+.Customers-purchases > .purchases-container > table > tr > th ,
+.Customers-purchases > .purchases-container > table > tr > td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+
+}
+
+.Customers-purchases > .purchases-container > table > tr {
+    width: 100%;
+    
+}
+
+.Customers-purchases > .purchases-container > table > th,
+.Customers-purchases > .purchases-container > table > td {
+    width: 20%;
+}
+.pages {
+    display: flex;
+    justify-content: center;
+  }

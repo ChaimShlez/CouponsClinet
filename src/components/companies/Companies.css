@@ -1,0 +1,28 @@
+.Companies {
+  
+    width: 100%;
+    padding-left: 70px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.Companies .users-container{
+    width: 80%;
+
+}
+.Companies table ,
+.Companies th ,
+.Companies td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+
+}
+
+.Companies tr {
+    width: 100%;
+    
+}
+.Companies th,td {
+    width: 20%;
+}

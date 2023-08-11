@@ -1,0 +1,28 @@
+.Purchases-customer {
+  
+    width: 100%;
+    padding-left: 70px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.Purchases-customer .puechases-contianer{
+    width: 80%;
+
+}
+.Purchases-customer table ,
+.Purchases-customer th ,
+.Purchases-customer td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+
+}
+
+.Purchases-customer tr {
+    width: 100%;
+    
+}
+.Purchases-customer th,td {
+    width: 20%;
+}

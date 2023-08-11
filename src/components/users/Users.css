@@ -1,0 +1,32 @@
+.Users {
+  
+    width: 100%;
+    padding-left: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Users .users-container{
+    width: 80%;
+
+}
+.Users table ,
+.Users th ,
+.Users td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+
+}
+
+.Users tr {
+    width: 100%;
+    
+}
+.Users th,td {
+    width: 20%;
+}
+.pages {
+    display: flex;
+    justify-content: center;
+  }

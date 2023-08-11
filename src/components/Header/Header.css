@@ -1,0 +1,169 @@
+.Header {
+ 
+  display: flex;
+  width: 100%;
+  height: 100%;
+
+
+
+}
+.Header .logo {
+  width: 20%;
+}
+.Header .login {
+  width: 20%;
+  display: flex;
+}
+.Header .header-main{
+  width: 60%;
+  display: flex;
+  align-items: center;
+}
+
+
+.Header .buttons {
+  margin-left: 120px;
+  margin-top: 10px;
+  display: flex;
+
+}
+
+
+.Header .buttons-sign {
+  display: none;
+  width: 125px;
+  height: 120px;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+  
+}
+
+.Header .button-sign {
+  border: none;
+  background-color: #fff;
+  margin: 7px;
+  cursor: pointer;
+}
+.Header .button-sign-up {
+  border-top:1px solid black ;
+}
+
+
+.Header .btnLink {
+  position: relative;
+  width: 81px;
+  height: 29px;
+  background: transparent;
+ 
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1em;
+  transition: .5s;
+  background-color:  rgb(247, 147, 30);
+  border: none;
+
+}
+
+.Header .search {
+  width: 380px;
+  height: 40px;
+  margin: auto;
+  margin-left: 45px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 20px;
+  border-color: black;
+  background-color: #fff;
+}
+
+.Header .search-icon {
+  font-size: 24px !important;
+  margin-bottom: 4px;
+}
+
+.Header .search-bar {
+  outline: none;
+  border: none;
+  flex-grow: 1;
+  height: 100%;
+}
+
+.Header .hello-customer {
+  color: black;
+  padding: 35px;
+  text-align: center;
+ 
+  font-size: 19px;
+  z-index: 1;
+ 
+}
+
+.Header .user-icon {
+  margin-bottom: -3px;
+  margin-right: 18px;
+  font-size: 40px !important;
+}
+.Header .hello-customer:hover .buttons-sign {
+  display: block;
+}
+
+
+.Header .trigger-user-inactive {
+  display: none;
+}
+
+.Header .drop-down-categories {
+
+  display: flex;
+  flex-direction: column;
+  
+ 
+  position: absolute;
+  width: 138px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  
+  display: none;
+  border-radius:10px;
+  list-style-type: none; 
+}
+
+.Header .drop-down-categories .button-categ {
+ 
+  border: none;
+  background-color:  rgb(247, 147, 30);
+}
+
+.Header .drop-down:hover .drop-down-categories {
+  display: flex;
+  flex-direction: column;
+  border-radius:10px;
+  
+}
+
+.Header .drop-down {
+  z-index: 1;
+  background: #78ffd6;
+ /* background-image: linear-gradient(to right, #78ffd6, #a8ff78);*/
+   background-color:  rgb(247, 147, 30);
+   width: 138px;
+ text-align: center;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1em;
+ 
+}
+.Header .name-menu {
+ margin: 6px;
+}
+
+.Header .drop-down .arrow-icon {
+  margin-bottom: -3px;
+  margin-right: 18px;
+  margin-left: 13px;
+}

@@ -1,0 +1,136 @@
+.HomeComponent {
+
+  min-width: 100%;
+  height: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.coupons-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+
+
+}
+
+.HomeComponent .coupons-details {
+
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+
+.pages {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+.HomeComponent .price-range {
+  
+  width: 275px;
+    height: 157px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px 25px 40px;
+ 
+}
+.HomeComponent .price-range-in-active {
+  display: none;
+}
+.HomeComponent .drop-down-cost {
+ width: 23%;
+ 
+}
+.HomeComponent .button-cost{
+ 
+  
+    width: 150px;
+    height: 34px;
+    border: none;
+    background: rgb(247, 147, 30);
+    margin-top: 12px;
+     border-radius: 3px; 
+    margin-left: 10px;
+}
+
+
+
+.HomeComponent .price-input {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0 15px;
+}
+
+.HomeComponent .field {
+  width: 70px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+}
+
+.HomeComponent .field input {
+  width: 100%;
+  height: 100%;
+  
+  
+  outline: none;
+  border-radius: 5px;
+  text-align: center;
+  border: none;
+}
+
+
+
+.HomeComponent .slider {
+  height: 5px;
+  border-radius: 5px;
+  background: #ddd;
+  position: relative;
+
+
+}
+
+
+
+.HomeComponent .range-input {
+  position: relative;
+}
+
+.HomeComponent .range-input input {
+  position: absolute;
+  top: -5px;
+  height: 5px;
+  width: 100%;
+  background: none;
+  pointer-events: none;
+  -webkit-appearance: none;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  height: 17px;
+  width: 17px;
+  border-radius: 50%;
+  -webkit-appearance: none;
+  pointer-events: auto;
+  background: rgb(247, 147, 30);
+}

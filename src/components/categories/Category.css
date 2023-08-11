@@ -1,0 +1,16 @@
+.Category {
+    position: relative;
+
+    height: 100%;
+    padding: 30px;
+}
+
+.Category .coupon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 90%;
+    position: relative;
+
+}

@@ -1,0 +1,21 @@
+.pagination{
+    display: flex;
+    gap: 5px;
+}
+
+.pagination>button{
+    height: 2rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+    color: white;
+    background-color: rgb(80, 80, 80);
+}
+
+.pagination>button:hover{
+    color:   rgb(247, 147, 30);
+    border: 1px solid  rgb(247, 147, 30);
+   
+    cursor: pointer;
+}

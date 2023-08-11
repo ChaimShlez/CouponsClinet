@@ -1,0 +1,33 @@
+.Layout {
+  min-height: 100vh;
+  border: 2px solid black;
+  width: 100%;
+
+  box-sizing: border-box;
+  display:flex;
+  flex-direction: column;
+  
+  grid-template-rows: 10% 85% 5%;
+}
+
+.Layout>* {
+  border: 2px solid black;
+}
+
+.Layout>header,
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: #dfe5e7;
+}
+
+
+
+.Layout>main {
+ width: 100%;
+ display: flex;
+  background-color: #dfe5e7;
+  flex: 1;
+  
+
+}

@@ -1,0 +1,38 @@
+.Coupon{
+    
+}
+.Coupon {
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+   border: white solid 2px ;
+   margin: 12px;
+    position: relative;
+   
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: #fff;
+    width: 230px;
+    height: 333px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+  
+}
+.Coupon:hover{
+    cursor: pointer;
+
+}
+.Coupon img {
+
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+   
+}
+.Coupon .imgBox{
+    height: 70%;
+    width: 100%;
+}
+.Coupon .text{
+    font-size: 15px;
+    margin: 20px;
+}

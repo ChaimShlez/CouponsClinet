@@ -1,0 +1,56 @@
+.Order {
+    width: 75%;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.Order .order-card {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+
+
+}
+
+.Order .order-title {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Order .imeg {
+    width: 20%;
+    margin-top: 10px;
+}
+
+.Order img {
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+}
+
+.Order .infromation-contianer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Order .button {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 6px;
+    height: 43px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Order .button:hover {
+    background-color: black;
+    color: white;
+}

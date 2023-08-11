@@ -1,0 +1,12 @@
+.Orders {
+    height: 100%;
+    width: 100%;
+    padding-left: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.pages {
+    display: flex;
+    justify-content: center;
+  }
